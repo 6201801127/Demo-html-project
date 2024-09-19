@@ -16,7 +16,7 @@ jobs:
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDdnq/wGFOSLN8p2My2Iy8uEFqcQgU84EFFk+oAuQwyCIlnnvI9OKq6Y3TJvV9Q8/yqS2TnQKrHk99tHNb8R+WFPjx45YC5Gr5gurWXzV6Nk9MTPndSN2aR+1LVPZzjWs8qcCrnPmHUdwiyUkuSYYfQP27qyYO2e1DHXGelrEVcLgiN8Z6VklQkVf2ukV8ThCU/LuxYBMXSyogR4KWZlzl2sY7fBJOIPac69qvPovHSQ8kBwRO8khK1DEzQx4E6F46/n5aAQVYTnY5RhOIbEdKaZWpKculxahGmWEQgSFEwmUaCNvvGQTSzcK3HWAm5xImVonMyiYcGLcCEA6IsN2zdd3JwCThBokjBTFD9E/Lr+0RQyMvaav6bAcD+M7HDuQNM2ffnwk15l/OdxJOIDxy3vMlhemBMUELwlBFPgSeBvIdTSB483cG/3DHH5UtQKk8lLIc3p3GJSYtMiB2I2OBvYCMfbRk5hjw/alhuqaWg3K4aT5haSiw4gZNY2QZtXgVA3RmBsKixx7I4CTDsREsvqbQIyKWNgELwcecAGM4ar7VewRYrhiCrG95Qu2df+1I61yAuR5979351qaLwO0Vyph9eigrsA389QX4Rgh4Ppg0kJZwClA2RJf2ucL98hHvtenqy3Fzi/bXOkNWzaE195HxzJbUV+mmteN1qhwcnqw== }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY}}
 
       - name: Deploy to server
         run: |
